@@ -7,7 +7,6 @@ const OPTIONS = {
   useUnifiedTopology: true,
 };
 
-process.env.DB_CONNECTION = 'mongodb+srv://Alice:malry123@cluster0.kry2p.mongodb.net/test'
 let db = null;
 
 function connection() {
