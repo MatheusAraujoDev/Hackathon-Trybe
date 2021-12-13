@@ -14,3 +14,5 @@ app.use('/', CitiesRouter);
 app.use('/', EventsRouter);
 
 app.listen(PORT, () => console.log(`Rodando na porta: ${PORT}!`));
+
+module.exports = app;
