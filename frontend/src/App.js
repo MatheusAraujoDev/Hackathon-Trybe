@@ -1,16 +1,16 @@
 import './App.css';
-import { useContext } from 'react';
-import MainContext from './context/MainContext';
 import Home from './pages/Home';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import About from './pages/About';
 
 function App() {
-  const teste = useContext(MainContext);
-  console.log(teste);
-  
   return (
-    <>
-      <Home />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path='/' element={<Home/>} />
+        <Route path='/about' element={<About/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
