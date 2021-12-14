@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 export default function Details() {
@@ -24,6 +25,7 @@ export default function Details() {
       <h2>{ city.name }</h2>
       <h2>{ city.state }</h2>
       <p>{ city.description }</p>
+      <Footer />
     </div>
   )
 }

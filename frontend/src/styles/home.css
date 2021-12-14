@@ -1,0 +1,46 @@
+body {
+  background-color: #c9e6e6;
+}
+
+.card-home {
+  background-color: #272343;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+  color: #fffffe;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  justify-content: space-evenly;
+  padding: 10px 10px;
+  text-align: center;
+  height: 100%;
+}
+
+.div-home {
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+.section-css {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 15px 0 80px;
+}
+
+.city-image {
+  width: 250px;
+}
+
+.title-home {
+  color: #272343;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.card-home:hover {
+  transform: scale(1.1);
+}

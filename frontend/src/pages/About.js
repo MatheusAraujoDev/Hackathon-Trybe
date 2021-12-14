@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import infos from '../utility';
 import '../styles/about.css';
 
@@ -19,6 +20,7 @@ const About = () => {
           )
         }) }
       </div>
+      <Footer />
     </div>
   )
 };

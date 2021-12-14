@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import EventCard from '../components/EventCard';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import './Events.css';
 
@@ -24,6 +25,7 @@ const Events = () => {
           )
         })}
       </section>
+      <Footer />
     </div>
   );
 }
