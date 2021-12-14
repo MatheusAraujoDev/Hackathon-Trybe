@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import About from './pages/About';
 import Events from './pages/Events';
 
+
 function App() {
   return (
     <BrowserRouter>
