@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import '../styles/city.css'
 
 export default function Details() {
   const getId = useLocation().pathname;
@@ -19,12 +20,17 @@ export default function Details() {
 
 
   return (
-    <div className="city-details">
+    <div>
       <Header />
-      <img src={ city.image } alt="city" className="city-image"/>
-      <h2>{ city.name }</h2>
-      <h2>{ city.state }</h2>
-      <p>{ city.description }</p>
+      <div className='center-div'>
+        <div className="city-details">
+          <img src={ city.image } alt="city" className="image-details"/>
+          <h1 className='title-details'>{ city.name }</h1>
+          <h2 className='title-details'>{ city.state }</h2>
+          <p className='description-details'>{ city.description }</p>
+        </div>
+      </div>
+      
       <Footer />
     </div>
   )
