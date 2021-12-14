@@ -1,6 +1,6 @@
 # Olá, seja Bem-Vindo(a) ao repositório do Hackathon - Grupo 5.
 
----
+
 # Descrição
 Trata-se de uma aplicação FullStack, com o FrontEnd desenvolvido em [React](https://pt-br.reactjs.org/), e o BackEnd desenvolvido em [NodeJs](https://nodejs.org/pt-br/docs/) conectado ao banco de dados não-relacional [MongoDb](https://docs.mongodb.com/). O objetivo é movimentar a economia das cidades no pós-pandemia, dessa forma, aprensentar eventos que incentivem as pessoas a irem as cidades propostas. 
 
@@ -17,7 +17,9 @@ Trata-se de uma aplicação FullStack, com o FrontEnd desenvolvido em [React](ht
 
 # Referências
   -Eventos: https://eztravel.com.br/eventos-de-turismo-2021-brasil/
+  
   -Cidades: WikiPedia e Google
+  
   -Baseado em: https://revistas.face.ufmg.br/index.php/mtr/article/view/5807
 
 ---
@@ -29,7 +31,7 @@ Trata-se de uma aplicação FullStack, com o FrontEnd desenvolvido em [React](ht
 # Instruções para executar o projeto
 
 ## 1- Configurar o MongoDb
--Entrar na pasta de backend e criar um arquivo .env colocando como conteúdo `DB_CONNECTION=mongodb+srv://Alice:malry123@cluster0.kry2p.mongodb.net/test`.
+-Entrar na pasta de backend e criar um arquivo `.env` colocando como conteúdo `DB_CONNECTION=mongodb+srv://Alice:malry123@cluster0.kry2p.mongodb.net/test`.
 
 ## 2- Configurar o BackEnd
 - Abra um novo terminal e navegue até a pasta do backend. Feito isso realize o comando `npm install` dentro dela (necessário apenas uma vez).
