@@ -8,7 +8,7 @@ const EventCard = (props) => {
       <div className="event-card">
         <img src={ event.image } alt="event" className="event-image"/>
         <div className='card-info'>
-          <h1>{ event.name }</h1>
+          <h1 className='event-name'>{ event.name }</h1>
           <h2>Data de início: { event.firstDay }</h2>
           <h2>Data de encerramento: { event.lastDay }</h2>
           <p>{ event.description }</p>

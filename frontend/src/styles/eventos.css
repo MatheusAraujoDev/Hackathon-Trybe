@@ -42,3 +42,18 @@
 .btn-margin {
   margin-top: 40px;
 }
+
+.event-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header-eventos {
+  text-align: center;
+  font-size: 48px;
+}
+
+.event-name {
+  font-size: 30px;
+}
