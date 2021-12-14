@@ -19,9 +19,4 @@ module.exports = [
     linkedin: 'https://www.linkedin.com/in/thosijulio',
     github: 'http://www.github.com/thosijulio',
   },
-  {
-    name: 'Julia Baptista',
-    linkedin: '',
-    github: '',
-  },
 ];
