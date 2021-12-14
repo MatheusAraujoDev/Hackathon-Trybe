@@ -1,0 +1,41 @@
+.card-css {
+  background-color: #272343;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+  color: #fffffe;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  justify-content: space-evenly;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  text-align: center;
+  width: 15%;
+}
+
+.about {
+  margin: 0;
+  background-color: #fffffe;
+  min-height: 100vh;
+}
+
+.a-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 70vh;
+  align-items: center;
+}
+
+.link-card {
+  color: #bae8e8;
+  text-decoration: none;
+}
+
+.link-card:hover {
+  color: #9cecec;
+}
+
+.title {
+  font-size: 18px;
+}

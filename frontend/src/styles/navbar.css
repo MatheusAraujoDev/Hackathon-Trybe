@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  font-weight: bolder;
+  justify-content: space-between;
+  padding: 2.2% 9.9%;
+}
+
+.other-bar {
+  display: flex;
+  width: 18%;
+  justify-content: space-between;
+}
+
+.header-text {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.home-text {
+  font-size: 30px;
+}
