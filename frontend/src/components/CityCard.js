@@ -1,12 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './CityCard.css';
 
-const CityCard = () => {
-  return (
-    <div class="city-card">
-      <img src="../../public/logo192.png" alt="city"/>
-      <h2>Nome Cidade</h2>
-      <h2>Estado</h2>
-    </div>
+const CityCard = (props) => {
+  const { city } = props;
+
+  return ( 
+    <Link to={`/city/${city._id}`}>
+      <div className="city-card">
+        <img src={ city.image } alt="city" className="city-image"/>
+        <h2>{ city.name }</h2>
+        <h2>{ city.state }</h2>
+      </div>
+    </Link>
   );
 }
 
