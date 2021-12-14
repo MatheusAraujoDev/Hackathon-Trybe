@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import EventCard from '../components/EventCard';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import './Events.css';
 
 const Events = () => {
   const [events, setEvents] = useState([]);
@@ -17,7 +16,7 @@ const Events = () => {
   return (
     <div>
       <Header />
-      <h1>Eventos</h1>
+      <h1 className='header-eventos'>Eventos</h1>
       <section className="event-cards-container">
         {events.map((event, index) => {
           return (
