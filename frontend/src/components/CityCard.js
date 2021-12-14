@@ -1,16 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './CityCard.css';
 
 const CityCard = (props) => {
   const { city } = props;
 
   return ( 
-    <Link to={`/city/${city._id}`}>
-      <div className="city-card">
+    <Link className='div-home' to={`/city/${city._id}`}>
+      <div className="card-home">
         <img src={ city.image } alt="city" className="city-image"/>
-        <h2>{ city.name }</h2>
-        <h2>{ city.state }</h2>
+        <h3 className='card-text'>{ city.name }</h3>
+        <h3 className='card-text'>{ city.state }</h3>
       </div>
     </Link>
   );
