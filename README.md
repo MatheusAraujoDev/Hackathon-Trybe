@@ -5,6 +5,21 @@
 Trata-se de uma aplicação FullStack, com o FrontEnd desenvolvido em [React](https://pt-br.reactjs.org/), e o BackEnd desenvolvido em [NodeJs](https://nodejs.org/pt-br/docs/) conectado ao banco de dados não-relacional [MongoDb](https://docs.mongodb.com/). O objetivo é movimentar a economia das cidades no pós-pandemia, dessa forma, aprensentar eventos que incentivem as pessoas a irem as cidades propostas. 
 
 ---
+# Desafio
+Turismo alternativo e como promover as cidades pós pandemia.
+
+Durante esse período de pandemia, uma das áreas mais afetadas, foi de fato o Turismo global. Segundo dados da Organização Mundial do Turismo (OMT), os prejuízos devem somar U$1,1 trilhão em receitas internacionais. No Brasil, o setor de turismo, ao final de 2019, gerou cerca de 7,4 milhões de empregos.
+
+Segundo uma estimativa da Confederação Nacional do Comércio de Bens, Serviços e Turismo, durante a pandemia, no período de Março de 2020 a Abril de 2021, o Brasil chegou a ter uma perda de aproximadamente R$341,1 bilhões.
+
+O setor de turismo se encontra 44% abaixo do patamar de Fevereiro de 2020. Pensando nas cidades que foram impactadas por esse cenário: Como aumentar a visibilidade do turismo local através da tecnologia, no mundo pós-pandemia? Lembrar que o turismo não é apenas pontos turísticos conhecidos e famosos, mas, como formentar novas opções e gerar oportunidades na economia dessas cidades?
+
+Referências:
+Pandemia e o Setor de Turismo | NAÇÕES UNIDAS
+Setor de Turismo: Impactados da Pandemia | ETENE
+Turismo perde R$341 bi com Pandemia | VALOR
+
+---
 # Tecnologias e Ferramentas utilizadas
  - React Hooks para gerenciamentos de Estado dos componentes.
  - Ciclo de Vida de um componente React.
